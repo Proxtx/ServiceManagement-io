@@ -1,0 +1,16 @@
+{
+  "name": "servicemangement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@proxtx/combine-rest": "^1.0.4",
+    "@proxtx/config": "^1.0.2"
+  }
+}
