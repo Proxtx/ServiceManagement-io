@@ -9,6 +9,8 @@ const logs = await genCombine(
 );
 
 export class Info {
+  name = "ServiceManagement";
+
   async info() {
     let fetchedLogs = await logs.getLogs(config.ServiceManagement.pwd);
     let returnObj = [];
